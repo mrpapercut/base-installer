@@ -109,7 +109,7 @@ echo $oSite->getPage();';
     public function getClassesAjax(){
         $content = '<?php
 
-class Ajax extends Site {
+class Ajax {
 
     public $db;
     public $template;
@@ -168,7 +168,7 @@ class Ajax extends Site {
     public function replaceClassesAjax(){
         $content = \'<?php
 
-class Ajax extends Site {
+class Ajax {
 
     public $db;
     public $template;
@@ -264,12 +264,13 @@ window.addEvent(\\\'domready\\\', function(){
     public function getClassesDb(){
         $content = '<?php
 
-class Db extends Site{
+class Db {
     public $db;
 
     private $db_user;
     private $db_pass;
     private $db_database;
+	private $db_host;
 
     public $conn;
 
@@ -387,7 +388,7 @@ class Site {
     public function getClassesTemplate(){
         $content = '<?php
 
-class Template extends Site {
+class Template {
 
     public function __construct(){
 
