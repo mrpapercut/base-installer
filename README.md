@@ -1,0 +1,2 @@
+# Mr. Papercut base installer
+
