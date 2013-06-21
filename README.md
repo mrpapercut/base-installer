@@ -4,6 +4,8 @@ A script to provide the bare minimum to start building a PHP/MooTools powered we
 
 Requires PHP5.x and directory read/write permissions to use.
 
+Please note: only tested on Windows. Not likely to work on Linux/Mac (as of now)
+
 ## Description
 
 This installer is meant for small projects, where you want a basic setup with convenient functions. Launch the script, test if it works and start coding with a working environment in under a minute.
